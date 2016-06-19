@@ -1,5 +1,0 @@
-D:\Chennadi\Project\Beam_Login\Beam_Login\bin\Debug\Beam_Login.exe.config
-D:\Chennadi\Project\Beam_Login\Beam_Login\bin\Debug\Beam_Login.exe
-D:\Chennadi\Project\Beam_Login\Beam_Login\bin\Debug\Beam_Login.pdb
-D:\Chennadi\Project\Beam_Login\Beam_Login\obj\x86\Debug\Beam_Login.exe
-D:\Chennadi\Project\Beam_Login\Beam_Login\obj\x86\Debug\Beam_Login.pdb
