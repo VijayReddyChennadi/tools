@@ -1,0 +1,6 @@
+D:\Chennadi\Project\Beam_Login\Beam_Login\bin\Release\Beam_Login.exe
+D:\Chennadi\Project\Beam_Login\Beam_Login\bin\Release\Beam_Login.pdb
+D:\Chennadi\Project\Beam_Login\Beam_Login\obj\x86\Release\Beam_Login.exe
+D:\Chennadi\Project\Beam_Login\Beam_Login\obj\x86\Release\Beam_Login.pdb
+D:\Chennadi\Project\Beam_Login\Beam_Login\bin\Release\Beam_Login.exe.config
+D:\Chennadi\Project\Beam_Login\Beam_Login\obj\x86\Release\Beam_Login.csprojResolveAssemblyReference.cache
