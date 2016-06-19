@@ -5,3 +5,5 @@ obj/*
 Beam/Beam_Login/bin/*
 Beam/Beam_Login/obj/*
 *.suo
+RateLoader/bin/*
+RateLoader/obj/*
