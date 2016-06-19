@@ -3,3 +3,5 @@ obj/*
 *.exe
 *.exe.config
 Beam/Beam_Login/bin/*
+Beam/Beam_Login/obj/*
+*.suo
