@@ -1,0 +1,56 @@
+<html>
+<head>
+<script type="text/javascript" 
+src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+ 
+<script type="text/javascript">
+ 
+    var googleAPI = "http://finance.google.com/finance/info?client=ig&q=NSE%3ASBIN";
+    //var json = { "id": "13564339", "t": "SBIN", "e": "NSE", "l": "288.75", "l_fix": "288.75", "l_cur": "?288.75", "s": "0", "ltt": "12:30PM GMT+5:30", "lt": "Jun 8, 12:30PM GMT+5:30", "lt_dts": "2017-06-08T12:30:03Z", "c": "-1.80", "c_fix": "-1.80", "cp": "-0.62", "cp_fix": "-0.62", "ccol": "chr", "pcls_fix": "290.55" };
+    //$.each(json, function (key, value) {
+    //    document.write(key + ": " + value + "<br />");
+    //});
+    //    $.getJSON(googleAPI, function (feed) {
+     //       $.each(feed, function (key, value) {
+     //           document.write(key + ": " + value + "<br />");
+     //       });
+    //    });
+
+
+function test() {
+var script=$('#inputScript').val();
+$('#divScriptData').html('');
+	jQuery.ajax({
+	               type: "GET",
+	               url: 'http://finance.google.com/finance/info?client=ig&q=NSE%3A'+script,
+	               dataType: "jsonp",
+		       cache: false,
+		       crossDomain: true,
+		       processData: true,
+
+
+	               success: function (data) {
+//document.write(JSON.stringify(data));
+      $.each(data[0], function (key, value) {
+                $('#divScriptData').append(key + ": " + value + "<br />");
+          });
+	                   //alert(JSON.stringify(data));
+	               },
+	               error: function (XMLHttpRequest, textStatus, errorThrown) {
+	                   alert("error");
+	               }
+           });
+}
+
+
+</script>
+</head>
+<body>
+<input type="text" id="inputScript"/>
+<input type="button" onclick="test()" value="Get Quote"/>
+<div id='divScriptData'>
+</div>
+</body>
+</html>
+ 
+
